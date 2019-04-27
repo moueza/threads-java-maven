@@ -1,4 +1,4 @@
-package com.journaldev.threadpool;
+package com.journaldev.threadpool.Ex2;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.Executors;
@@ -6,8 +6,13 @@ import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
+import com.journaldev.threadpool.WorkerThread;
+
 public class WorkerPool {
-	/** Ex2 RejectedExecutionHandlerImpl Runnable TimeUnit.SECONDS */
+	/**
+	 * Ex2 RejectedExecutionHandlerImpl Runnable TimeUnit.SECONDS
+	 * Thread.sleep(30000) 5000
+	 */
 	public static void main(String args[]) throws InterruptedException {
 		// RejectedExecutionHandler implementation
 		RejectedExecutionHandlerImpl rejectionHandler = new RejectedExecutionHandlerImpl();

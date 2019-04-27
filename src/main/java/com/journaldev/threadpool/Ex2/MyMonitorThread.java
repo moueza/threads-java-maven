@@ -1,8 +1,9 @@
 
-package com.journaldev.threadpool;
+package com.journaldev.threadpool.Ex2;
 
 import java.util.concurrent.ThreadPoolExecutor;
 
+/** Monitor +++++ **/
 public class MyMonitorThread implements Runnable {
 	private ThreadPoolExecutor executor;
 	private int seconds;

@@ -1,4 +1,4 @@
-package com.journaldev.threadpool;
+package com.journaldev.threadpool.Ex2;
 
 import java.util.concurrent.RejectedExecutionHandler;
 import java.util.concurrent.ThreadPoolExecutor;

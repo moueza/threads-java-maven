@@ -1,7 +1,9 @@
-package com.journaldev.threadpool;
+package com.journaldev.threadpool.Ex1;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+
+import com.journaldev.threadpool.WorkerThread;
 
 public class SimpleThreadPool {
 
